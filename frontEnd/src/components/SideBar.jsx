@@ -5,7 +5,7 @@ function SideBar() {
   return (
     <div className="fixed items-left z-10" id="Side Bar">
       <div className="pl-4 flex pb-4" id="appitizers-sidebar">
-        <button className="border-2 border-black rounded-full h-8 w-52 hover:bg-lightgray" onClick={() => { document.getElementById("appitizers").scrollIntoView({ behavior: "smooth" }); }}>
+        <button className="border-2 border-black rounded-full h-8 w-52 bg-white hover:bg-lightgray" onClick={() => { document.getElementById("appitizers").scrollIntoView({ behavior: "smooth" }); }}>
           Appetizers & Beverages
         </button>
       </div>

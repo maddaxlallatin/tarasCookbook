@@ -6,7 +6,7 @@ function RecipeItem({ name, ingredients, directions, category, image }) {
         
 
 
-        <div className="justify-center" id={name}>
+        <div className="justify-center scroll-my-20" id={name.toLowerCase()}>
                
                <span className="flex justify-center text-coral font-bebasneue font-bold text-7xl"> {name} </span>
            
