@@ -8,6 +8,7 @@ import SideBar from './components/SideBar';
 import Recipes from './components/Recipes'; // Fix the file name to match the actual file name
 // @ts-ignore
 import Header from './components/Header';
+import MenuButton from './components/menuButton';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
       <div className='bg-softwhite'>
         <Header />
         <SearchBar />
+        <MenuButton />
         <SideBar />
         <Recipes />
       </div>
